@@ -1,15 +1,14 @@
 /* SPDX-License-Identifier: MIT
  *
- * Copyright (C) 2017-2021 WireGuard LLC. All Rights Reserved.
+ * Copyright (C) 2017-2023 WireGuard LLC. All Rights Reserved.
  */
 
 package ratelimiter
 
 import (
+	"net/netip"
 	"testing"
 	"time"
-
-	"golang.zx2c4.com/go118/netip"
 )
 
 type result struct {
